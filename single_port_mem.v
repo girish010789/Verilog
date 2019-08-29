@@ -1,3 +1,5 @@
+//Single port synchronous read/write memory
+
 module single_port (clk,address,data,data_out,cs,we,oe);
 
 parameter WIDTH = 8;
